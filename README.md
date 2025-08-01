@@ -91,7 +91,7 @@ A big thanks to our sponsors and partners who make Lua possible. If you're inter
 | Step | Command |
 |------|--------|
 | Clone the repo | `git clone https://github.com/wmhchathuranga/lua.sh.git && cd lua.sh` |
-| Copy env file | `cp .env.example .env` |
+| Copy env file | `cp .env.example .env` and update the .env |
 | Install PHP deps | `composer install` *(or Sail Composer)* |
 | Start Docker | `docker compose -f docker-compose.yml up -d --build` |
 | Laravel setup | `./vendor/bin/sail artisan key:generate && ./vendor/bin/sail artisan migrate --seed && ./vendor/bin/sail artisan storage:link` |
@@ -121,7 +121,7 @@ cd lua.sh
 # Copy environment
 cp .env.example .env
 ```
-
+And update the .env
 ---
 
 ### **2️⃣ Install PHP Dependencies**
