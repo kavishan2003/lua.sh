@@ -96,6 +96,7 @@ A big thanks to our sponsors and partners who make Lua possible. If you're inter
 | Start Docker | `docker compose -f docker-compose.yml up -d --build` |
 | Laravel setup | `./vendor/bin/sail artisan key:generate && ./vendor/bin/sail artisan migrate --seed && ./vendor/bin/sail artisan storage:link` |
 | Frontend setup | `./vendor/bin/sail npm ci && ./vendor/bin/sail npm i -D tailwindcss@^3 postcss@^8 autoprefixer@^10 && ./vendor/bin/sail npm run dev` |
+| Start Analytics | `./vendor/bin/sail artisan queue:work` |
 | Access app | [http://localhost](http://localhost) |
 
 ---
