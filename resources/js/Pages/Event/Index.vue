@@ -246,7 +246,7 @@ const countryCodeToFlagEmoji = (code) => {
                                                     "
                                                     class="table-td"
                                                 >
-                                                   <span :class="`fi fi-${event.country.toLowerCase()}`"> </span> {{ event.country }}
+                                                   <span :class="`fi fi-${event.country.toLowerCase()}`">&nbsp;</span> {{ event.country }}
                                                 </td>
                                                 <td
                                                     v-if="
