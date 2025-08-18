@@ -262,7 +262,7 @@ const countryCodeToFlagEmoji = (code) => {
                                                                 c.show
                                                         )
                                                     "
-                                                    class="table-td"
+                                                    class="table-td table-td-country-falg"
                                                 >
                                                     {{
                                                         countryCodeToFlagEmoji(
