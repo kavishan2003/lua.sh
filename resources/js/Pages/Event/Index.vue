@@ -45,11 +45,6 @@ const columns = reactive([
         show: true,
     },
     {
-        key: "country-flag",
-        label: "Flag",
-        show: true,
-    },
-    {
         key: "region",
         label: "Region",
         show: true,
@@ -251,7 +246,7 @@ const countryCodeToFlagEmoji = (code) => {
                                                     "
                                                     class="table-td"
                                                 >
-                                                    {{ event.country }}
+                                                   <span :class="`fi fi-${event.country.toLowerCase()}`"> </span> {{ event.country }}
                                                 </td>
                                                 <td
                                                     v-if="
@@ -264,7 +259,7 @@ const countryCodeToFlagEmoji = (code) => {
                                                     "
                                                     class="table-td"
                                                 >
-                                                    <span :class="`fi fi-${event.country.toLowerCase()}`"></span>
+                                                    
                                                 </td>
                                                 <td
                                                     v-if="
