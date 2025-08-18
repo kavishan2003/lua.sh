@@ -262,13 +262,9 @@ const countryCodeToFlagEmoji = (code) => {
                                                                 c.show
                                                         )
                                                     "
-                                                    class="table-td table-td-country-falg"
+                                                    class="table-td"
                                                 >
-                                                    {{
-                                                        countryCodeToFlagEmoji(
-                                                            event.country
-                                                        )
-                                                    }}
+                                                    <span :class="`fi fi-${event.country.toLowerCase()}`"></span>
                                                 </td>
                                                 <td
                                                     v-if="

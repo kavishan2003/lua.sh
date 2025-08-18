@@ -122,10 +122,6 @@
     @apply whitespace-nowrap text-sm py-2 px-3 sm:px-6 text-black dark:text-white;
 }
 
-.table-td-country-falg {
-    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
-}
-
 /**
  * Form
  */
