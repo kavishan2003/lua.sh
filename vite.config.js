@@ -19,4 +19,12 @@ export default defineConfig({
             },
         }),
     ],
+server: {
+        host: '0.0.0.0',
+        port: 5173,
+        strictPort: true,
+        hmr: {
+            host: '206.189.80.172', // Your server's public IP
+        },
+    },
 });

@@ -15,9 +15,5 @@ return [
 
     'available' => [
         env('DOMAIN_MAIN', 'lua.sh'),
-        'git.now',
-        'cal.now',
-        'fig.now',
-        'spoti.now'
     ]
 ];
