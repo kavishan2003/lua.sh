@@ -262,7 +262,7 @@ const countryCodeToFlagEmoji = (code) => {
                                                                 c.show
                                                         )
                                                     "
-                                                    class="table-td" style='font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif";'
+                                                    class="table-td"
                                                 >
                                                     {{
                                                         countryCodeToFlagEmoji(
